@@ -78,7 +78,7 @@ BEGIN
 		END LOOP;
 	END LOOP;
 	
-	--аналогичная фигня для топпингов
+	--аналогично
 	
 	FOR pastry_topping IN SELECT topping_id FROM pastry_toppings WHERE pastry_toppings.pastry = pastry_id_
 	LOOP
